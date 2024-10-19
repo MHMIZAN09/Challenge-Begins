@@ -207,6 +207,58 @@ nav li a {
   border-radius: 16px;
 }
 
+/* Support-container */
+.Support-container {
+
+  border-radius: 16px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url('../assets/handshake.jpg') lightgray 50%;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 80px;
+  padding: 64px 48px;
+  text-align: center;
+}
+
+.Support-title {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.Support-description {
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  color: #fff;
+  text-align: center;
+  text-wrap: wrap;
+  margin-top: 18px;
+}
+
+.Support-container input[type="text"] {
+  width: 548px;
+  padding: 19px 20px;
+  border-radius: 8px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  background: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(13, 19, 33, 0.40);
+  ;
+
+}
+
+.Support-container input[type="submit"] {
+  padding: 17px 20px;
+  border-radius: 8px;
+  background: #FFF;
+  color: #0D1321;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 24px;
+}
 
 /* footer section  */
 footer {
