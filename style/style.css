@@ -20,7 +20,7 @@ nav ul {
   justify-items: center;
   margin: 50px 150px;
   align-items: center;
-  
+
 }
 
 nav ul li {
@@ -44,4 +44,43 @@ nav li a {
   padding: 17px 24px;
   border-radius: 8px;
   border: 1px solid #0D1321;
+}
+
+/* hero section  */
+.hero {
+  background-image: url('../assets/Hero-bg.png');
+  text-align: center;
+
+}
+
+.hero-section {
+  margin: 24px 221px 45px 221px;
+}
+
+.hero-img {
+  margin-top: 24px;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 800;
+  margin-top: 32px;
+}
+
+.hero-description {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 24px;
+}
+
+.hero-btn {
+  font-size: 20px;
+  color: #fff;
+  background-color: black;
+  font-weight: 600;
+  padding: 21px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 32px;
+  margin-bottom: 45px;
 }
