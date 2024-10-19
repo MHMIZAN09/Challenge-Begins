@@ -207,6 +207,72 @@ nav li a {
   border-radius: 16px;
 }
 
+/* current-title  */
+.current-target-container {
+  margin: 152px 150px 111px 150px;
+}
+
+.current-title {
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.current-description {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  opacity: 0.7;
+  color: #0D1321;
+  text-wrap: wrap;
+  padding: 24px 144px;
+  margin-bottom: 48px;
+}
+
+.current-items {
+  display: flex;
+  gap: 24px;
+}
+
+.current-item1 {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  padding: 40px;
+}
+
+.current-item2 {
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+  padding: 40px;
+}
+
+.current-item3 {
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+  padding: 40px;
+}
+
+.item-title {
+  color: #0D1321;
+  font-size: 24px;
+  font-weight: 800;
+
+}
+
+.item-description {
+  color: #0D1321;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+.item-link {
+  color: #0D1321;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
 /* Support-container */
 .Support-container {
 
